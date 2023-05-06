@@ -2,7 +2,7 @@ import Foundation
 #if os(Linux)
 let bundle = Bundle.module
 #else
-let bundle = GPTEncoderResources.resourceBundle
+let bundle = Bundle.module
 #endif
 
 public final class GPTEncoder {
